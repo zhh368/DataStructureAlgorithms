@@ -21,10 +21,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VectorSort.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestSort.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
