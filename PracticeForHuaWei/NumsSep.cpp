@@ -7,10 +7,10 @@
 using namespace std;
 
 //quick sort nums
-int partition(vector<int>& elem, int lo, int hi)
+int partition(vector<long long>& elem, int lo, int hi)
 {
 	swap(elem[lo], elem[lo + rand() % (hi - lo + 1)]);
-	int pivot = elem[lo];
+	long long pivot = elem[lo];
 	while (lo < hi)
 	{
 		while (lo<hi&&elem[hi] >= pivot) hi--;
@@ -22,7 +22,7 @@ int partition(vector<int>& elem, int lo, int hi)
 	return lo;
 }
 
-void qucikSort(vector<int>& elem, int lo, int hi)
+void qucikSort(vector<long long>& elem, int lo, int hi)
 {
 	if (hi - lo < 2) return;
 	int mid = partition(elem, lo, hi-1);
@@ -63,10 +63,10 @@ void main()
 	}
 
 	//get int nums
-	vector<int> nums(vec.size());
+	vector<long long> nums(vec.size());
 	for (int i = 0; i < vec.size(); ++i)
 	{
-		int iTemp=0;
+		long long iTemp = 0;
 		string sTemp = vec[i];
 		for (int j = 0; j < sTemp.size(); ++j)
 			iTemp = 10 * iTemp + sTemp[j] - '0';
