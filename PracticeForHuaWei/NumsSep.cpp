@@ -30,7 +30,7 @@ void qucikSort(vector<long long>& elem, int lo, int hi)
 	qucikSort(elem, mid, hi);
 }
 
-void main()
+void NumsSep()
 {
 	//iutput by cin
 	string str;
