@@ -33,5 +33,14 @@
     <ClCompile Include="Josephus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="arrayCompare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qsortDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

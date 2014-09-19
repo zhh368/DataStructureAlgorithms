@@ -78,10 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arrayCompare.cpp" />
     <ClCompile Include="delSub.cpp" />
     <ClCompile Include="Josephus.cpp" />
     <ClCompile Include="Max.cpp" />
     <ClCompile Include="NumsSep.cpp" />
+    <ClCompile Include="qsortDemo.cpp" />
+    <ClCompile Include="StackDemo.cpp" />
     <ClCompile Include="StringChang.cpp" />
     <ClCompile Include="StringNumMul.cpp" />
   </ItemGroup>
