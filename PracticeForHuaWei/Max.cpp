@@ -58,10 +58,10 @@ string FindMaxIncreNumberSeq(string str)
 	return str.substr(start, maxLen);
 }
 
-void main()
-{
-	string str = "23456789ads3sl456789DF012341234567893456ld345AA345678";
-	cout << FindMaxIncreNumberSeq(str);
-
-	system("pause");
-}
+//void main()
+//{
+//	string str = "23456789ads3sl456789DF012341234567893456ld345AA345678";
+//	cout << FindMaxIncreNumberSeq(str);
+//
+//	system("pause");
+//}

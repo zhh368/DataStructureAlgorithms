@@ -24,13 +24,18 @@ void stringChang(char* input, char* output)
 	output[i] = '\0';
 }
 
-int same(int num)
+int same(long long num)
 {
 	vector<int> nums;
 	while (num > 0)
 	{
 		nums.push_back(num % 10);
 		num /= 10;
+	}
+
+	if (nums.size() < 4)
+	{
+		return 0;
 	}
 
 	for (int i = 0; i < nums.size()-3; ++i)
@@ -48,9 +53,12 @@ int same(int num)
 
 //void main()
 //{
-//	char input[100], output[100];
-//	cin.getline(input, 100);
-//	stringChang(input, output);
-//	cout << output;
+//	//char input[100], output[100];
+//	//cin.getline(input, 100);
+//	//stringChang(input, output);
+//	long long input;
+//	cin>>input;
+//	int i = same(input);
+//	cout << i;
 //	system("pause");
 //}

@@ -78,9 +78,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="delSub.cpp" />
+    <ClCompile Include="Josephus.cpp" />
     <ClCompile Include="Max.cpp" />
     <ClCompile Include="NumsSep.cpp" />
     <ClCompile Include="StringChang.cpp" />
+    <ClCompile Include="StringNumMul.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

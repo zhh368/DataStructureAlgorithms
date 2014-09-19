@@ -24,5 +24,14 @@
     <ClCompile Include="Max.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringNumMul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delSub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Josephus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
