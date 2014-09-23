@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAlgorithms", "DataStructureAlgorithms\DataStructureAlgorithms.vcxproj", "{97191F5A-EAD6-4003-AD29-1D4AADDAE79D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PracticeForHuaWei", "PracticeForHuaWei\PracticeForHuaWei.vcxproj", "{96288469-9A45-43BD-9A8D-3D3D2744FCEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{97191F5A-EAD6-4003-AD29-1D4AADDAE79D}.Debug|Win32.Build.0 = Debug|Win32
 		{97191F5A-EAD6-4003-AD29-1D4AADDAE79D}.Release|Win32.ActiveCfg = Release|Win32
 		{97191F5A-EAD6-4003-AD29-1D4AADDAE79D}.Release|Win32.Build.0 = Release|Win32
+		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Debug|Win32.Build.0 = Debug|Win32
+		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Release|Win32.ActiveCfg = Release|Win32
+		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
