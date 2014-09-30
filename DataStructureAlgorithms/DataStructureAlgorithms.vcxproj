@@ -81,6 +81,7 @@
     <ClInclude Include="VectorSort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="TestSort.cpp" />
     <ClCompile Include="VectorSort.cpp" />
   </ItemGroup>

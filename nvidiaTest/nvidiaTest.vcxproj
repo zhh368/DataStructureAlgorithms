@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{96288469-9A45-43BD-9A8D-3D3D2744FCEA}</ProjectGuid>
+    <ProjectGuid>{D8C61391-821D-4655-AF6A-77F418F4B784}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>PracticeForHuaWei</RootNamespace>
+    <RootNamespace>nvidiaTest</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -53,6 +53,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/d1reportAllClassLayout %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,18 +79,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="arrayCompare.cpp" />
-    <ClCompile Include="delSub.cpp" />
-    <ClCompile Include="Josephus.cpp" />
-    <ClCompile Include="Max.cpp" />
-    <ClCompile Include="NumsSep.cpp" />
-    <ClCompile Include="printPermutations.cpp" />
-    <ClCompile Include="qsortDemo.cpp" />
-    <ClCompile Include="StackDemo.cpp" />
-    <ClCompile Include="StringChang.cpp" />
-    <ClCompile Include="StringNumMul.cpp" />
-    <ClCompile Include="virtualTest.cpp" />
-    <ClCompile Include="virtualTest1.cpp" />
+    <ClCompile Include="ConnectSequence.cpp" />
+    <ClCompile Include="OverrideTest.cpp" />
+    <ClCompile Include="SizeofVirtual.cpp" />
+    <ClCompile Include="Test2.cpp" />
+    <ClCompile Include="Test3.cpp" />
+    <ClCompile Include="WorksAp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

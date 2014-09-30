@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAlgorithms", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PracticeForHuaWei", "PracticeForHuaWei\PracticeForHuaWei.vcxproj", "{96288469-9A45-43BD-9A8D-3D3D2744FCEA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nvidiaTest", "nvidiaTest\nvidiaTest.vcxproj", "{D8C61391-821D-4655-AF6A-77F418F4B784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Debug|Win32.Build.0 = Debug|Win32
 		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Release|Win32.ActiveCfg = Release|Win32
 		{96288469-9A45-43BD-9A8D-3D3D2744FCEA}.Release|Win32.Build.0 = Release|Win32
+		{D8C61391-821D-4655-AF6A-77F418F4B784}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8C61391-821D-4655-AF6A-77F418F4B784}.Debug|Win32.Build.0 = Debug|Win32
+		{D8C61391-821D-4655-AF6A-77F418F4B784}.Release|Win32.ActiveCfg = Release|Win32
+		{D8C61391-821D-4655-AF6A-77F418F4B784}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

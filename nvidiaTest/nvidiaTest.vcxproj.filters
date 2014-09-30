@@ -15,18 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VectorSort.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="VectorSort.cpp">
+    <ClCompile Include="Test2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestSort.cpp">
+    <ClCompile Include="Test3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
+    <ClCompile Include="WorksAp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeofVirtual.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
